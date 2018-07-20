@@ -1,0 +1,7 @@
+1940  ioctl(0, TIOCGPGRP, [-1214129095]) = 0
+1940  getpgrp()                         = 1935
+1940  write(2, "503 Service Unavailable\n", 24) = 24
+1940  close(3)                          = 0
+1940  stat64("index.html", 0xbff676ec)  = -1 ENOENT (No such file or directory)
+1940  _newselect(5, [4], NULL, NULL, {tv_sec=900, tv_usec=0}) = 1 (in [4], left {tv_sec=900, tv_usec=0})
+

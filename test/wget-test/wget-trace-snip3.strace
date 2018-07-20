@@ -1,0 +1,4 @@
+1940  syscall_0x1ba(0xbff67ee0, 0, 0, 0, 0, 0) = 0
+1940  brk(NULL)                         = 0x14ab000
+1940  brk(0x14cc000)                    = 0x14cc000
+1940  brk(0x14cd000)                    = 0x14cd000

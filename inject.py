@@ -12,8 +12,8 @@ import logging
 
 from posix_omni_parser import Trace
 
+from syscallreplay import syscallreplay
 from syscallreplay import syscall_dict
-
 from syscallreplay import generic_handlers
 from syscallreplay import file_handlers
 from syscallreplay import kernel_handlers
