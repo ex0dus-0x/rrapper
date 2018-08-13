@@ -1,3 +1,7 @@
+posix-omni-parser/
+syscallreplay/
+
+
 build/
 *.pipe
 *.json

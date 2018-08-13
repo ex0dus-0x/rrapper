@@ -115,8 +115,6 @@ def handle_syscall(pid, syscall_id, syscall_object, entering):
     we are expecting based on the current system call object.  Then hand off
     responsiblity to the appropriate subcall handler.
     TODO: cosmetic - Reorder handler entrys numerically
-
-
     '''
     logging.debug('Handling syscall')
     # If we are entering a system call, update the number of system calls we
@@ -291,7 +289,8 @@ def handle_syscall(pid, syscall_id, syscall_object, entering):
         #(340, True): prlimit64_entry_handler,
         #(345, True): sendmmsg_entry_handler,
         #(345, False): sendmmsg_exit_handler
-        }
+        (65, True): generic_handlers.syscall_return_success_handler,
+    }
     if syscall_id not in ignore_list:
         found = False
         for i in handlers.keys():

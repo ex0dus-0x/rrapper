@@ -1,4 +1,4 @@
-1940  ioctl(0, TIOCGPGRP, [-1214129095]) = 0
+1940  ioctl(0, TIOCGPGRP, [1935]) = 0
 1940  getpgrp()                         = 1935
 1940  write(2, "503 Service Unavailable\n", 24) = 24
 1940  close(3)                          = 0
