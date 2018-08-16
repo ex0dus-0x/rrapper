@@ -1,5 +1,0 @@
-1940  ioctl(2, TCGETS, {c_iflags=0xb7a1e250, c_oflags=0x573f80, c_cflags=0, c_lflags=0x2, c_line=212, c_cc="\x7f\xf6\xbf\x00\xb0\xb7\xb7\x00\x40\x57\x00\x00\x00\x00\x00\x9c\x7e\xf6\xbf"}) = 0
-1940  ioctl(0, TCGETS, {c_iflags=0x4500, c_oflags=0x5, c_cflags=0xbf, c_lflags=0x8a3b, c_line=0, c_cc="\x03\x1c\x7f\x15\x04\x00\x01\x00\x11\x13\x1a\x00\x12\x0f\x17\x16\x00\x00\x00"}) = 0
-1940  ioctl(2, TCGETS, {c_iflags=0, c_oflags=0xb7a7ea2b, c_cflags=0xb7b226b5, c_lflags=0x60, c_line=6, c_cc[VMIN]=183, c_cc[VTIME]=169, c_cc="\x00\x00\x00\x1e\x2a\xa9\xb7\xc0\x98\xb7\xb7\x30\xdc\xa1\xb7\x00\x45\x00\x00"}) = 0
-1940  rt_sigaction(SIGHUP, {sa_handler=SIG_IGN, sa_mask=[HUP], sa_flags=SA_RESTART}, {sa_handler=0x4, sa_mask=[RT_1 RT_5 RT_6], sa_flags=0}, 8) = 0
-

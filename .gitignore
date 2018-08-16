@@ -1,7 +1,7 @@
 posix-omni-parser/
 syscallreplay/
 
-
+*.egg-info/
 build/
 *.pipe
 *.json

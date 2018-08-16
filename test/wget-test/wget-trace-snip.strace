@@ -1,7 +1,7 @@
-1940  ioctl(0, TIOCGPGRP, [1935]) = 0
-1940  getpgrp()                         = 1935
-1940  write(2, "503 Service Unavailable\n", 24) = 24
-1940  close(3)                          = 0
-1940  stat64("index.html", 0xbff676ec)  = -1 ENOENT (No such file or directory)
-1940  _newselect(5, [4], NULL, NULL, {tv_sec=900, tv_usec=0}) = 1 (in [4], left {tv_sec=900, tv_usec=0})
-
+3131  ioctl(3, FIONREAD, [44])          = 0
+3131  recvfrom(3, "\254\r\201\200\0\1\0\1\0\0\0\0\6google\3com\0\0\1\0\1\300\f\0\1\0\1\0\0\0\303\0\4\254\331\v\16", 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.0.53")}, [28->16]) = 44
+3131  gettimeofday({tv_sec=1534434238, tv_usec=550548}, NULL) = 0
+3131  poll([{fd=3, events=POLLIN}], 1, 4987) = 1 ([{fd=3, revents=POLLIN}])
+3131  ioctl(3, FIONREAD, [56])          = 0
+3131  recvfrom(3, "\4K\201\200\0\1\0\1\0\0\0\0\6google\3com\0\0\34\0\1\300\f\0\34\0\1\0\0\0\34\0\20&\7\370\260@\6\10\24\0\0\0\0\0\0 \16", 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.0.53")}, [28->16]) = 56
+3131  close(3)                          = 0
